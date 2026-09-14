@@ -1,6 +1,73 @@
-Developed a Food Ordering Web Application using MERN stack.
-It has an additional option of booking dine-in restaurants available at a particular location.
-For secure payments, used STRIPE as payment method.
+# Food Ordering Web Application
+
+A full-stack **food ordering web application** built using the **MERN stack**, with support for online food ordering, restaurant browsing, dine-in booking, and secure payments through Stripe.
+
+## Overview
+
+The application provides a platform where users can explore restaurants and food options, place orders, and book dine-in restaurants based on location.
+
+The project is structured into separate frontend, backend, and admin components.
+
+## Features
+
+* Food and restaurant browsing
+* Online food ordering
+* Cart and order management
+* Restaurant-based food selection
+* Dine-in restaurant booking based on location
+* Secure online payment using **Stripe**
+* Separate administration functionality
+* Full-stack client-server architecture
+
+The current repository README specifically documents the MERN stack, Stripe payments, and location-based dine-in restaurant booking.
+
+## Architecture
+
+```text
+User
+  │
+  ▼
+Frontend (Vite / React)
+  │
+  ▼
+Backend
+  │
+  ▼
+Database
+```
+
+The repository contains dedicated directories for the **backend**, **frontend**, and **admin** portions of the application.
+
+## Tech Stack
+
+* **Frontend:** React.js, Vite
+* **Backend:** Node.js, Express.js
+* **Database:** MongoDB
+* **Payments:** Stripe
+* **Architecture:** MERN Stack
+
+## Project Structure
+
+```text
+Food-Ordering-Web-Application/
+├── admin/
+├── backend/
+├── vite-project/
+└── README.md
+```
+
+## Payment Integration
+
+**Stripe** is integrated as the payment gateway to support secure online payment processing.
+
+## Dine-In Booking
+
+The application also provides an option for users to book dine-in restaurants based on a selected location.
+
+## Purpose
+
+The project demonstrates full-stack web application development using the MERN stack, including frontend development, backend services, database interaction, payment integration, and application functionality across multiple modules.
+
 
 
 Preview:
